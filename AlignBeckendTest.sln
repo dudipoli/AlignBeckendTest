@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlignBeckendTest", "AlignBeckendTest\AlignBeckendTest.csproj", "{A495E57D-D68D-4B89-9928-EE0947EC6F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlignBeckendApi.Dal", "AlignBeckendApi.Dal\AlignBeckendApi.Dal.csproj", "{10A85165-3036-46E9-A098-9ABE42F0F697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A495E57D-D68D-4B89-9928-EE0947EC6F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A495E57D-D68D-4B89-9928-EE0947EC6F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A495E57D-D68D-4B89-9928-EE0947EC6F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A495E57D-D68D-4B89-9928-EE0947EC6F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A85165-3036-46E9-A098-9ABE42F0F697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A85165-3036-46E9-A098-9ABE42F0F697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A85165-3036-46E9-A098-9ABE42F0F697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A85165-3036-46E9-A098-9ABE42F0F697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCCBA17F-33FC-45CD-A3E9-ACE43F830962}
+	EndGlobalSection
+EndGlobal
