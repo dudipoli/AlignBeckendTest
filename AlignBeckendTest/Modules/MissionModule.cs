@@ -102,7 +102,8 @@ namespace AlignBeckendTest.Modules
             if (closestElement == null)
                 throw new AggregateException();
             int indexOfElement = destinationMatrix?.rows.FirstOrDefault()?.elements.IndexOf(closestElement) ?? 0;
-            return destinationMatrix.origin_addresses[indexOfElement];
+            var originAddresses = locationsToSearch.Split("|").ToList();
+            return originAddresses[indexOfElement];
         }
     }
 }
